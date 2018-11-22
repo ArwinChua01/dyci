@@ -1,7 +1,7 @@
 html, body{
    height: 100%;
    width: 100%;
-   font-family: 'Poppins', sans-serif;
+   font-family: Segoe UI, sans-serif;
    color: #222;
 }
 
@@ -216,7 +216,7 @@ hr.light-100{
 }
 
     .display-4{
-        font-size: 65%;
+        font-size: 250%;
     }
 .fonny{
     font-size: 190%;
@@ -269,6 +269,23 @@ hr.light-100{
     .finny {
       font-size: 80%;
     }
+
+    
+a.back-to-top {
+	display: none;
+	width: 20px;
+	height: 20px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 3px;
+	bottom: 3px;
+    background: rgba(0, 0, 0, 0.164) url("./img/up.png") no-repeat center 13%;
+    background-size: cover;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
   }
 
 
@@ -376,6 +393,22 @@ color: white;
     margin-right: 10px;
 }
 
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+    background: rgba(0, 0, 0, 0.164) url("./img/up.png") no-repeat center 33%;
+    background-size: cover;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
 .imageee{
     height: 400px;
     width: 415px;
@@ -402,7 +435,7 @@ color: white;
 }
 
 .sans{
-    font-family: Agency FB, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,sans-serif;
     
 }
 
@@ -411,3 +444,19 @@ color: white;
     margin-right: 5px;
     text-align: center;
 }
+
+.center{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+/* .marginny{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ */
+
+
+
+
